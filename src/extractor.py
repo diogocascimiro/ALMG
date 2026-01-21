@@ -6,7 +6,7 @@ from typing import Union
 
 import pdfplumber
 
-from core.context import DiarioContext
+from src.context import DiarioContext
 
 RE_PAGINA = re.compile(r"Página\s+(\d+)\s+de\s+\d+", re.IGNORECASE)
 
